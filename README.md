@@ -1,41 +1,54 @@
 📌 Overview
 This project demonstrates inheritance in Java using an Employee class and a derived permanentEmployee class.
 It highlights:
- -Class constructors
- -Method overriding
- -Displaying employee details
- -Salary computation with and without bonuses
+
+Class constructors
+
+Method overriding
+
+Displaying employee details
+
+Salary computation with and without bonuses
 
 🛠️ Classes
-1.Employee
+Employee
 Fields:
- -EmployeeID (int)
- -name (String)
- -salary (int)
-Methods:
--computesalary() → Prints base salary.
--displayemployeedetails() → Displays employee details and salary.
 
-2.permanentEmployee (extends Employee)
+EmployeeID (int)
+
+name (String)
+
+salary (int)
+
+Methods:
+
+computesalary() → Prints base salary.
+
+displayemployeedetails() → Displays employee details and salary.
+
+permanentEmployee (extends Employee)
 Additional Field:
--bonus (double)
--Overridden Method:
--computesalary() → Calculates salary including bonus (salary + bonus * salary).
+
+bonus (double)
+
+Overridden Method:
+
+computesalary() → Calculates salary including bonus (salary + bonus * salary).
 
 ▶️ How to Run
 Clone the repository:
--bash
--git clone https://github.com/your-username/Inheritance-java.git
--cd Inheritance-java/src
--Compile the code:
 
 bash
--javac Main.java
--Run the program:
+git clone https://github.com/e-ric79/Inheritance-java.git
+cd Inheritance-java/src
+Compile the code:
 
 bash
--java Main
+javac Main.java
+Run the program:
 
+bash
+java Main
 📊 Expected Output
 text
 --------------------------------
